@@ -1,6 +1,6 @@
 :root {
     --main-bg-color: #121212;
-    --main-text-color: #affaed;
+    --main-text-color: #cbe9e4;
     --main-font-family: 'Courier New', Courier;
     --header-font-color: #f5e285;
 }
@@ -37,7 +37,7 @@ header {
 
 .header-name a {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 90%;
+    font-size: 100%;
     color: var(--header-font-color);   
     padding: 10px;
     transition: all 0.3s ease;
@@ -58,7 +58,7 @@ header .container {
 
 header a {    
     text-decoration: none;    
-    font-size: 90%;
+    font-size: 100%;
     color: var(--main-text-color);
 }
 
@@ -97,7 +97,7 @@ header nav {
     margin: 10px 0 0 0;
 }
 
-/* HEADER SECTION END */
+
 
 section {
     height: 100vh;
@@ -119,9 +119,8 @@ section {
 }
 
 .about-content p {
-    font-size: 100%;
-    /* font-family: Calibri, 'Trebuchet MS', sans-serif; */
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-content img {
@@ -147,3 +146,7 @@ footer {
 .nav-link {
     cursor: pointer;
 }
+
+/* HEADER SECTION END */
+
+/* PROFESSIONAL EXPERIENCE SECTION START */
