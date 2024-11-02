@@ -39,14 +39,14 @@ header {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 100%;
     color: var(--header-font-color);   
-    padding: 10px;
+    /* padding: 10px; */
     transition: all 0.3s ease;
 }
 
 .header-name a:hover {
     /* text-shadow: 5px 5px 10px rgba(23, 213, 219, 0.5); */
     background-color: #2c2c2c;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
 }
 
@@ -150,3 +150,11 @@ footer {
 /* HEADER SECTION END */
 
 /* PROFESSIONAL EXPERIENCE SECTION START */
+
+.container.experience {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    color: #f5e285;
+    font-family: var(--main-font-family);
+}
