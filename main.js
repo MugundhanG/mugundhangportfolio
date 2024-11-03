@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const targetId = link.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetId);
+            link.classList.add("navlink-active");
 
             window.scrollTo({
                 top: targetSection.offsetTop - document.querySelector('header').offsetHeight,
